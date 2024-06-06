@@ -1,0 +1,129 @@
+.splash-main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spalsh-title {
+  font-family: "Times New Roman", serif;
+  margin-left: 10px;
+  color: #b0c929;
+}
+.spalsh-title1 {
+  font-family: "Times New Roman", serif;
+}
+
+.splash-main-container > span {
+  font-size: 20px;
+}
+
+.splash-button {
+  width: 180px;
+  height: 54px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 27px;
+  cursor: pointer;
+}
+
+.welcome-page{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.welcome-bottom{
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.welcome-bottom-Link{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.welcome3-page{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.search-input {
+  text-align: center;
+  font-size: x-large;
+  height: 15px;
+  width: 350px;
+  margin-left: 32px;
+}
+
+.splash-header{
+  display: none;
+}
+.costomerDetail-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media screen and (min-width: 640px) {
+  .splash-main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .splash-img{
+    width: 500px;
+    height: 700px;  
+    object-fit: cover;
+    margin-bottom: 152px;
+    margin-left: -76px;
+  }
+  .splash-header{
+    display: none;
+  }
+  .costomerDetail-container2{
+    align-self: center;
+    width: 414px;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+
+   .splash-img{
+    width: 590px;
+    height: 849px;  
+    object-fit: cover;
+    margin-bottom: 360px;
+    margin-left: -76px;
+  } 
+  .splash-header{
+    display: contents;
+  }
+  .welcome-bottom{
+    margin-bottom: 130px;
+  }
+  .costomerDetail-container2{
+    align-self: flex-end;
+    width: 414px;
+    margin-right: 60px;
+    margin-top: -629px;
+  }
+}

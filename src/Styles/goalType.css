@@ -1,0 +1,29 @@
+.type-container{
+    width: 120px;
+    height: 32px;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.type-main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.type-container:hover{
+ background-color: black;
+ color: white;
+ cursor: pointer;
+}
+
+
+@media screen and (min-width:1024px){
+    .type-main-container{
+        width: 30vw;
+        justify-content: space-evenly;
+    }
+}

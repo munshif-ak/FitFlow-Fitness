@@ -1,0 +1,97 @@
+.banner-container {
+  width: 90vw;
+  height: 200px;
+  background-color: #f6a010;
+  border-radius: 15px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-title {
+  color: white;
+  font-size: 17px;
+  width: 250px;
+  line-height: 1.6;
+  /* font-weight: 500; */
+  /* font-family: "Trirong", serif; */
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.banner-button {
+  width: 130px;
+  height: 27px;
+  background-color: #fabc06;
+  border: 1px solid #fabc06;
+  border-radius: 5px;
+  color: white;
+  margin-top: 8px;
+}
+
+.banner-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin-left: -44px;
+  margin-top: 45px;
+}
+
+.banneImage {
+  width: 220px;
+  height: 300px;
+  object-fit: contain;
+  margin-top: -56px;
+  margin-left: -32px;
+}
+
+.banner-para{
+  display: none;
+}
+
+@media screen and (min-width:640px){
+  .banner-container {
+    height: 300px;
+  }
+  .banneImage {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+  }
+  .banner-title{
+    font-size: 16px;
+    width: 527px;
+  }
+  .banner-para{
+    display: block;
+  }
+ .banner-button{
+  width: 200px;
+  height: 41px;
+  font-size: large;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner-container {
+    height: 500px;
+  }
+  .banneImage {
+    width: 700px;
+    height: 600px;
+    object-fit: contain;
+  }
+  .banner-title{
+    font-size: 23px;
+    width: 758px;
+  }
+  .banner-para{
+    display: block;
+  }
+  .banner-button{
+    width: 215px;
+    height: 49px;
+    font-size: large;
+  }
+}

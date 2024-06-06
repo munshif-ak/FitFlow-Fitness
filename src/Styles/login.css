@@ -1,0 +1,158 @@
+.loginPage-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* align-items: center; */
+}
+
+.loginPage-2container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.login-textBox{
+    width: 380px;
+    height: 50px;
+    background-color: rgb(229, 228, 228);
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.login-button{
+    width: 384px;
+    height: 55px;
+    border: 0px;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    background-color: #B0C929;
+    border-radius: 7px;
+    margin-top: 46px;
+}
+
+.google-button{
+    width: 384px;
+    height: 55px;
+    border: 0px;
+    font-size: 16px;
+    color: slategrey;
+    font-weight: 600;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.facebook-button{
+    width: 384px;
+    height: 55px;
+    border: 0px;
+    font-size: 16px;
+    color: white;
+    background-color: #4267B2;
+    font-weight: 600;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.login-forgot{
+    font-weight:600;
+    margin-top:17px;
+    align-self:flex-end;
+    margin-right: 140px;
+
+}
+
+.login-logiWith{
+    align-self:center;
+    margin-top:30px;
+    margin-right:26px;
+    color:grey
+}
+
+.login-hello{
+    max-width:151px;
+}
+
+.login-heading{
+    margin-top:45px;
+}
+
+.login-pathIcon{
+    margin-left:-10px;
+}
+.register{
+    margin-top:60px;
+    align-self:center;
+    margin-right:20px;
+}
+.login-img{
+    align-self: flex-end;
+    display: none;
+}
+
+
+@media screen and (min-width: 640px) {
+    .loginPage-container{
+        align-items: center;
+    }
+    .login-forgot{
+       align-self: flex-start;
+    }
+    .login-hello{
+        max-width:251px;
+    }
+    .login-heading{
+        margin-top:0px;
+        font-size: xx-large;
+    }
+    .login-pathIcon{
+        margin-left: -734px;
+    }
+     
+  }
+
+  @media screen and (min-width: 1024px) {
+    .loginPage-container{
+        align-items: flex-end;
+        margin-right: 55px;
+    }
+    
+    .login-pathIcon{
+        margin-left: 0px;
+        align-self: flex-start;
+    }
+    .login-hello{
+        align-self: flex-start;
+        margin-left: 345px;
+    }
+    .login-heading{
+      align-self: flex-start;
+      margin-left: 240px;
+    }
+    .login-logiWith{
+        align-self: end;
+        margin-right: 135px;
+    }
+    .register{
+        align-self:flex-end;
+        margin-right:50px;
+    }
+    .login-img{
+       align-self: flex-start;
+       object-fit: cover;
+       margin-left: 143px;
+       margin-top: 30px;
+       display: flex;
+    }
+    .loginPage-2container{
+        margin-top: -613px;
+    }
+  }
